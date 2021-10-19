@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
         const Padding(
           padding: EdgeInsets.symmetric(horizontal: 20),
           child: Text(
-            "Kerwin Teh",
+            "Oliver Eielson",
             style: TextStyle(fontSize: 20, ),
           ),
         ),
@@ -223,7 +223,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 8,vertical: 20),
               child: Text("Powered By Modo",style: TextStyle
-                (fontSize: 11),),
+                (fontSize: 11,color: Colors.grey),),
             )
           ],
         ));
