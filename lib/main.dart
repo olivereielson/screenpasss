@@ -113,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
 
-        Center(child: Icon(Icons.check_circle,color: Colors.green,size: 320,)),
+        const Center(child: Icon(CupertinoIcons.check_mark_circled_solid,color: CupertinoColors.activeGreen,size: 320,)),
         Padding(
           padding: const EdgeInsets.fromLTRB(10,0,10,20),
           child: Row(
@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                 style: ButtonStyle(
                     padding: MaterialStateProperty.all<EdgeInsets>(
-                        EdgeInsets.all(0)),
+                        const EdgeInsets.all(0)),
 
                     foregroundColor:
                     MaterialStateProperty.all<Color>(Colors.red),
@@ -136,7 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Row(
-                    children: [
+                    children: const [
                       Text(
                         "Retake Daily Screening Survey",
                         style: TextStyle(color: Colors.black,),
