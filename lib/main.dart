@@ -113,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
 
-        const Center(child: Icon(CupertinoIcons.check_mark_circled_solid,color: CupertinoColors.activeGreen,size: 320,)),
+        const Center(child: Icon(CupertinoIcons.check_mark_circled_solid,color: CupertinoColors.systemGreen,size: 320,)),
         Padding(
           padding: const EdgeInsets.fromLTRB(10,0,10,20),
           child: Row(
@@ -132,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     MaterialStateProperty.all<RoundedRectangleBorder>(
                         RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(0.0),
-                            side: BorderSide(color: Colors.grey)))),
+                            side: const BorderSide(color: Colors.grey)))),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Row(
